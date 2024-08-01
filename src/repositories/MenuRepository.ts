@@ -1,3 +1,4 @@
+//nameが商品名、priceが価格、categoryが主菜、副菜、丼・カレー
 export type Dish = { name: string, price: number, category: string };
 
 export interface Menu {
