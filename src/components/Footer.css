@@ -1,0 +1,13 @@
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #ffffff; /* 背景色を白に設定 */
+  border-top: 1px solid #e9ecef;
+  padding: 20px; /* 必要に応じてパディングを追加 */
+  margin: 20px; /* 必要に応じてマージンを追加 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 必要に応じて影を追加 */
+}

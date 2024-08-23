@@ -1,0 +1,7 @@
+.sum-price {
+    background-color: #ffffff; /* 背景色を白に設定 */
+    padding: 10px; /* パディングを追加 */
+    border: 1px solid #e0e0e0; /* ボーダーを追加 */
+    border-radius: 5px; /* 角を丸くする */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加 */
+}
