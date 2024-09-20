@@ -38,10 +38,9 @@ export default function Result() {
             sumPrice
           } style={{ width: '95vw' }} />
           <ShareButton 
-            url="" 
             text={
                 (randomMeal?.dishList.map(dish => dish.name + ' ' + dish.price + '円').join('%0A') || "") +
-                '%0A計 '+sumPrice + '円' + '%0A'
+                '%0A計 '+sumPrice + '円' + '%0A' + '%23オルタスガチャ%0A' 
             } 
           /> 
           <RetryButton price={price} onClick={() => fetchMenu(price)} style={{ width: '80vw' }} />

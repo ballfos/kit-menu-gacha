@@ -1,6 +1,6 @@
 /*Xアイコンの共有ボタン*/
-/*
-.share-button{
+
+.x-icon{
     display: flex;
     border-radius: 100%;
     font-size: 1.5em;
@@ -14,18 +14,18 @@
     align-items: center;
     justify-content: center;
 }
-*/
+
 
 .share-button{
     border-radius: 100px;
-    border: 2px solid #ed4141;
+    border: 2px solid #000000;
     padding: 0.6em 1.2em;
     margin: 20px 0;
     font-size: 1.5em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #eb1e1e;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+    background-color: #000000;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.361);
     color: #ffffff;
     cursor: pointer;
     transition: border-color 0.25s;

@@ -9,6 +9,7 @@ export default function Home() {
     }
     return (
         <div className="container">
+
             <h1>オルタスガチャ</h1>
             <GachaButton price={500} onClick={() => navigateToResult(500)} style={{ width: '80vw' }} />
             <GachaButton price={650} onClick={() => navigateToResult(650)} style={{ width: '80vw' }} />

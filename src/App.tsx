@@ -1,13 +1,14 @@
 import './App.css'
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Home from './pages/Home'
 import Result from './pages/Result'
 
 function App() {
   return (
-    <Router>
+    
+    <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/result/:price' element={<Result />} />
