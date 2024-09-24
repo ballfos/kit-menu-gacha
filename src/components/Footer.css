@@ -1,13 +1,58 @@
-
-
 .footer {
   display: flex;
+  flex-direction: column; /* 縦方向に並べる */
   justify-content: center;
   align-items: center;
-  height: 100px;
-  background-color: #ffffff; /* 背景色を白に設定 */
-  border-top: 1px solid #e9ecef;
+  height: 200px;
+  background-color: #f8f9fa; /* 背景色を淡いグレーに変更 */
   padding: 20px; /* 必要に応じてパディングを追加 */
-  margin: 20px; /* 必要に応じてマージンを追加 */
+  width: 100%; /* 幅を画面いっぱいに設定 */
+  margin: 100px 0 0 0; /* 上にスペースを追加 */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 必要に応じて影を追加 */
+  border: 5px double #4CAF50; /* 二重線の枠線を追加 */
+  border-radius: 10px; /* 角を丸くする */
+}
+
+.footer-title {
+  font-size: 18px; /* フォントサイズを設定 */
+  font-weight: bold; /* フォントの太さを設定 */
+  margin-bottom: 20px; /* 下にスペースを追加 */
+  padding-bottom: 5px; /* アンダーラインとの間にスペースを追加 */
+  border-bottom: 2px solid #000; /* カスタムアンダーラインを追加 */
+  cursor: pointer;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+
+
+.footer-title:hover {
+  color: #7d7d7d; /* 好きな色に変更 */
+  border-bottom-color: #7d7d7d; /* アンダーラインの色を変更 */
+}
+.icons {
+  display: flex; /* 横方向に並べる */
+  justify-content: center; /* 中央に揃える */
+  align-items: center; /* 中央に揃える */
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column; /* 縦方向に並べる */
+  align-items: center; /* 中央に揃える */
+  margin: 0 20px; /* アイコン間のスペースを追加 */
+}
+
+.footer img {
+  width: 80px; /* 画像の幅を設定 */
+  height: 80px; /* 画像の高さを設定 */
+  border-radius: 50%; /* 画像を丸くする */
+  object-fit: cover; /* 画像を引き伸ばさずに表示 */
+   border: px solid #000; /* 黒い枠線を追加 */
+}
+
+.icon-name {
+  margin-top: 5px; /* アイコンと名前の間にスペースを追加 */
+  font-size: 18px; /* フォントサイズを設定 */
+  font-weight: bold; /* フォントの太さを設定 */
+  color: #333; /* テキストの色を設定 */
 }

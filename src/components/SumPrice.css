@@ -1,7 +1,15 @@
 .sum-price {
-    background-color: #ffffff; /* 背景色を白に設定 */
-    padding: 10px; /* パディングを追加 */
-    border: 1px solid #e0e0e0; /* ボーダーを追加 */
-    border-radius: 5px; /* 角を丸くする */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加 */
-}
+    /* background-color: #ffffff; 背景色を白に設定 */
+    padding: 10px 95px; /* 左右のパディングを追加 */
+    
+    /* border: 1px solid #e0e0e0; ボーダーを追加 */
+    /* border-radius: 5px; 角を丸くする */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 影を追加 */
+    display: flex; /* フレックスボックスを使用 */
+    justify-content: space-between; /* 要素を左右に配置 */
+    align-items: center; /* 垂直方向に中央揃え */
+    font-family: "Cherry Bomb One", system-ui; /* フォントファミリーを設定 */
+    font-size: 35px; /* フォントサイズを設定 */
+    font-weight: bold; /* フォントの太さを設定 */
+    color: #333; /* テキストの色を設定 */
+  }
