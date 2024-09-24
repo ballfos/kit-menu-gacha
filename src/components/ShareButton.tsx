@@ -50,7 +50,7 @@ const generateShareText = (meal?: Meal) => {
   return meal?.dishList
     .map((dish) => `${dishToEmoji(dish)} ${dish.name} ${dish.price}円`)
     .join("%0a")
-    .concat("%0a", `計${meal.totalPrice}円%0a`, "%23オルタスガチャ%0a");
+    .concat("%0a", `計 ${meal.totalPrice}円%0a`, "%23オルタスガチャ%0a");
 };
 
 export default function ShareButton({

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ryos-k.github.io/kit-menu-gacha/",
+  "homepage": "https://ry05k2ulv.github.io/kit-menu-gacha/",
   "scripts": {
     "dev": "vite --host --open",
     "build": "tsc -b && vite build",

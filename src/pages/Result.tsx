@@ -55,7 +55,7 @@ export default function Result() {
       <RetryButton
         price={price}
         onClick={() => fetchMenu(price)}
-        style={{ width: "80vw", maxWidth: "800px" }}
+        style={{ width: "80vw", maxWidth: "600px" }}
       />
     </div>
   );
