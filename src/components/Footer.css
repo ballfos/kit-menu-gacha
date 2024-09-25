@@ -7,11 +7,11 @@
   background-color: #f8f9fa; /* 背景色を淡いグレーに変更 */
   padding: 20px; /* 必要に応じてパディングを追加 */
   width: 100%; /* 幅を画面いっぱいに設定 */
-  margin: 100px 0 0 0; /* 上にスペースを追加 */
+  margin-bottom: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 必要に応じて影を追加 */
   border: 5px double #4CAF50; /* 二重線の枠線を追加 */
   border-radius: 10px; /* 角を丸くする */
-  
+  position: relative;
 }
 
 .footer-title {

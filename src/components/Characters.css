@@ -1,0 +1,28 @@
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: end;
+    width: 100%;
+    list-style: none;
+    padding: 0 32px;
+    margin: 0;
+    z-index: 1;
+}
+
+.character {
+    width: 32px;
+    height: 32px;
+    margin: 0 4px;
+    cursor: pointer;
+
+    &:hover {
+        animation: bounce 0.3s;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,5 +1,5 @@
 header {
-    width: 100%;
+    width: 100vw;
     height: 64px;
     background-color: rgba(251, 245, 179, 0.388);
     display: flex;

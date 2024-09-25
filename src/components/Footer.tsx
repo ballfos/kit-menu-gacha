@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./Footer.css";
-import hattoIcon from "../assets/rainbowhatto2.png";
+import hattoIcon from "../assets/hatto.png";
 import aramIcon from "../assets/Aram.jpeg";
+import Characters from "./Characters";
 
 interface FooterProps {
   className?: string;

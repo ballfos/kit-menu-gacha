@@ -88,7 +88,7 @@ class MenuRepository {
                         priceSum += randomDish.price;
                     }
                 }
-                console.log(randomDishList);
+
                 return { dishList: randomDishList, totalPrice: priceSum };
             });
     }

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import GachaButton from "../components/GachaButton";
 import Footer from "../components/Footer";
+import Characters from "../components/Characters";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -25,8 +26,15 @@ export default function Home() {
         onClick={() => navigateToResult(1000)}
         style={{ width: "80vw", maxWidth: "600px" }}
       />
-
-      <Footer style={{ width: "95vw", maxWidth: "800px" }} />
+      <div style={{
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
+        flexGrow: 1,
+      }}>
+        <Characters />
+        <Footer style={{ width: "95vw", maxWidth: "800px" }} />
+      </div>
     </div>
   );
 }
