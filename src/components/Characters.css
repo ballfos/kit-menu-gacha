@@ -17,12 +17,15 @@
     margin: 0 4px;
     cursor: pointer;
 
-    &:hover {
-        animation: bounce 0.3s;
+    @media (hover: hover) {
+        &:hover {
+            animation: bounce 0.3s;
+        }
     }
 
     img {
         width: 100%;
         height: 100%;
+        user-select: none;
     }
 }

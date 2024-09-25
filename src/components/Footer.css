@@ -68,6 +68,7 @@
       border-radius: 50%; /* 画像を丸くする */
       object-fit: cover; /* 画像を引き伸ばさずに表示 */
       border: px solid #000; /* 黒い枠線を追加 */
+      user-select: none;
     }
     
     p {
@@ -76,6 +77,7 @@
       font-weight: bold; /* フォントの太さを設定 */
       color: #333; /* テキストの色を設定 */
       height: 20%;
+      user-select: none;
     }
   }
 }
