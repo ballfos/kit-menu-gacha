@@ -11,6 +11,16 @@
     background-color: #fff;
     margin-bottom: 4px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.249);
+    position: relative;
+}
+
+.dishcard-category {
+    position: absolute;
+    padding: 0 8px;
+    overflow: hidden;
+    background-color: #2f0f523c;
+    color: #f6f6f6;
+    border-radius: 0% 0% 8px 0;
 }
 
 .dishcard-name {

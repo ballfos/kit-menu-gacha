@@ -10,11 +10,14 @@ interface DishCardProps {
 export default function DishCard({ dish, className, ...rest }: DishCardProps) {
     return (
         <div className={`dishcard ${className}`} {...rest}>
-            <div className={`dishcard-name `}>
+            <div className="dishcard-category">
+                <p>{dish.category}</p>
+            </div>
+            <div className="dishcard-name">
                 <p>{dish.name}</p>
             </div>
             <div className="dishcard-split"></div>
-            <div className={`dishcard-price `}>
+            <div className="dishcard-price">
                <p>¥{dish.price}</p>
             </div>
         </div>
