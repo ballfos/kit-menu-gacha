@@ -26,14 +26,16 @@ export default function Home() {
         onClick={() => navigateToResult(1000)}
         style={{ width: "80vw", maxWidth: "600px" }}
       />
-      <div style={{
-        display: "flex",
-        justifyContent: "center",
-        flexDirection: "column",
-        flexGrow: 1,
-      }}>
-        <Characters />
-        <Footer style={{ width: "95vw", maxWidth: "800px" }} />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          flexDirection: "column",
+          flexGrow: 1,
+        }}
+      >
+        {/* <Characters /> */}
+        {/* <Footer style={{ width: "95vw", maxWidth: "800px" }} /> */}
       </div>
     </div>
   );
